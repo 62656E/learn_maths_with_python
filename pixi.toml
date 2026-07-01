@@ -1,0 +1,17 @@
+[workspace]
+authors = ["Benjamin Travis <bet.travis36@live.com>"]
+channels = ["conda-forge"]
+name = "learn_maths_with_python"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+python = ">=3.14.6,<3.15"
+numpy = ">=2.5.0,<3"
+pandas = ">=3.0.3,<4"
+scipy = ">=1.18.0,<2"
+matplotlib = ">=3.11.0,<4"
+jupyterlab = ">=4.6.1,<5"
+ipykernel = ">=7.3.0,<8"
